@@ -3,6 +3,8 @@ const app = express();
 const gradient = require('gradient-string');
 const path = require('path');
 
+app.use(express.static("public"));
+
 app.get('/', (req, res) => {
 
     res.sendFile( path.join(__dirname, '../index.html') );
