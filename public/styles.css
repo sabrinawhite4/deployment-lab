@@ -1,16 +1,26 @@
 body {
-  background: #ddd;
+  background:#ddd;
   margin: 1rem;
   padding: 1rem;
   max-width: 500px;
   margin: 2rem auto;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", cursive;
+  text-align: center;
 }
-
 img {
   max-width: 300px;
   margin-top: 15px;
   border: solid 5px black;
   margin-left: 20px;
+  
 }
+h1 {
+  text-align: center;
+  color: red;
+  
+}
+h2 {
+  text-align: center;
+}
+
 
