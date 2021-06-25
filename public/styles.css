@@ -1,11 +1,12 @@
 body {
   background:#ddd;
-  margin: 1rem;
-  padding: 1rem;
-  max-width: 500px;
-  margin: 2rem auto;
+  
   font-family: "Open Sans", cursive;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 img {
   max-width: 300px;
@@ -22,5 +23,29 @@ h1 {
 h2 {
   text-align: center;
 }
-
-
+.list {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  width: 245px;
+}
+.list-title {
+  text-align: left;
+  text-decoration: underline red 3px;
+  width: 245px;
+  margin: 0;
+}
+#list-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 700px;
+}
+.intro-container{
+  border: dashed slategrey 5px;
+  width: 600px ;
+}
+footer {
+  background-color: goldenrod;
+  width: 100vw;
+}
